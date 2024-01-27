@@ -1,0 +1,79 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #0c0c0c;
+  z-index: -200;
+}
+
+.header{
+  background-color: #3a3a3ad9;
+  height: 80px;
+  margin: 10px;
+  box-shadow: 4px 3px 12px #0c0c0c;
+  font-family: arial;
+  border-radius: 10px;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+ul li a{
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+ul li a:hover{
+  color: #ffd;
+}
+
+.menu li{
+  float: left;
+  padding: 35px;
+  margin-top: -35px;
+  padding-right: 10px;
+}
+
+.menu li a{
+  text-decoration: none;
+}
+
+.block{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.block video{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+
+.logo{
+float: left;
+width: 10%;
+height: 10%;
+margin: 10px;
+}
+
+.add-to-wishlist{
+float: right;
+width: 45%;
+height: 45%;
+margin: -28px;
+}
+
+.logo-footer{
+  float: right;
+  width: 10%;
+  height: 10%;
+  margin-right: 100px;
+  margin: 10px;
+  }
